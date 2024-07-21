@@ -6,8 +6,7 @@
 	Project Description: Develop a base and derived classes to represent different types of vehicles. Then program a short driver to these classes.
 */
 
-
-
+// Reference all three derived classes - Vehicle, car and truck
 
 
 #include <iostream>
@@ -22,7 +21,7 @@ int main()
 	string manufacturer;
 	int yearBuilt, numberOfDoors, towingCapacity;
 
-	// Vehicle
+	// Ask the user to input various information about the vehicle, including the manufacturer and year it was built. 
 
 	cout << "Eneter the vehicle's manufacturer: ";
 	getline(cin, manufacturer);
@@ -32,7 +31,7 @@ int main()
 	cout << "\nVehicle Information:\n";
 	vehicle.displayInfo();
 
-	// Car
+	// Ask the user to input various information about the car, including the manufacturer and year it was built. 
 
 
 	cout << "\nEnter the car's manufacturer: ";
@@ -46,7 +45,7 @@ int main()
 	cout << "\nCar Information:\n";
 	car.displayInfo();
 
-	// Truck
+	// Ask the user to input various information about the truck, including the manufacturer and yrar it was built. 
 
 
 	cout << "\nEnter the manufacturer of the truck: ";
