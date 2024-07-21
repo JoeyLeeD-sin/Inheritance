@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// Header file for the base Vehicle class. The get and set manufacturer information, year built, and the displayinfo variables will be passed to any derived classes. 
+
 class Vehicle
 {
 private:
