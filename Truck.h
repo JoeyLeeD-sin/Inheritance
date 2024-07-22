@@ -3,6 +3,8 @@
 
 #include "Vehicle.h"
 
+// A derived class, Truck, has been created from the base class, Vehicle. The Truck class includes the addition of the towingCapacity member and inherits the other public members from the Vehicle class.
+
 class Truck : public Vehicle
 {
 private:

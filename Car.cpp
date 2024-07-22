@@ -1,7 +1,7 @@
 #include "Car.h"
 #include <iostream>
 
-// A this pointer is set up to point to the manufacturer and year built memory in the car class.
+// A this pointer is set up to point to the number of doors in the car class.
 
 Car::Car(string manufacturer, int yearBuilt, int numberOfDoors) : Vehicle(manufacturer, yearBuilt)
 {
